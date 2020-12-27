@@ -79,5 +79,8 @@ function keyPressed(){
 	}
 }
 
+function mouseDragged(){
+	Matter.Body.setPosition(bob1.body, {x:mouseX, y: mouseY};
+}
 
 
