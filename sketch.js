@@ -78,9 +78,3 @@ function keyPressed(){
 	  Matter.Body.applyForce(bob5.body, bob5.body.position, {x:300, y:-180}); 
 	}
 }
-
-function mouseDragged(){
-	Matter.Body.setPosition(bob1.body, {x:mouseX, y: mouseY});
-}
-
-
